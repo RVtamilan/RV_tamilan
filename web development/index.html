@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME|REFERENCE</title>
+    <style>
+        body{
+    background-image: url(https://1001freedownloads.s3.amazonaws.com/vector/thumb/315030/79243ed9d565c5215bc52edf8f7877ee-creative-3d-glowing-triangles-background.jpg);
+    background-size: cover;
+}
+
+.bar{   
+    margin-top: 50px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px;
+    font-size: 30px;
+
+}
+.side{
+    position: fixed;
+    font-size: large;
+    margin-top:70px ;
+    padding: 18px;
+    line-height: 50px;
+    background-color: black;
+    width: 180px;
+    border: 3px solid white;
+}
+.u1{
+    list-style: none;
+    
+}
+label{
+    justify-items: space-around; 
+    color: wheat;
+    
+}
+.bar label:hover , .side label:hover{
+    color: aqua;
+}
+label:visited{
+    color: blueviolet;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    color: goldenrod;
+    margin-left: 250px;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content p{
+    font-size: larger;
+    font-weight: 300;
+    font-family:'Courier New', Courier, monospace;
+}
+.i1{
+    width: 100px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.i2{
+    width: 100px;
+    margin-left: 160px;
+    margin-top: 100px;
+}
+.i3{
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 190px;
+}
+.i4{
+    width: 140px;
+    margin-top: 110px;
+    margin-left: 250px;
+}
+.i5{
+    width: 120px;
+    margin-top: 110px;
+    margin-left: 150px;
+}
+fieldset{
+        margin-top: 50px; 
+        margin-right: 350px;
+        margin-left: 200px;
+        border-style: dashed;
+        
+}
+fieldset legend{
+    font-size: 40px;
+}
+fieldset label{
+    color: gold;
+    line-height: 20px;
+}
+.cpy{
+    position: absolute;
+    top: 1200px;
+    left: 300px;
+}
+.no {
+    position: absolute;
+    top: 1200px;
+    left: 500px;
+}
+    </style>
+
+</head>
+<body>
+    
+    
+        <div class="bar">
+            <a href="#"><label for="home" class="home">HOME</label></a>
+            <a href="rust.html"><label for="html" class="html">RUST</label></a>
+            <a href="python.html"><label for="python" class="python">PYTHON</label></a>
+            <a href="java.html"><label for="java" class="java">JAVA</label></a>
+            <a href="c++.html"><label for="c++" class="cpp">C++</label></a>
+            <a href="dart.html"><label for="dart" class="dart">DART</label></a>
+
+        </div>
+        <div class="side">
+            <ul class="u1">
+            <li><a href="#intro"><label for="INTRO" class="intro">INTRODUCTION</label></a></li>
+            <li><a href="#about"><label for="" class="about">ABOUT</label></a></li>
+            <li><a href="#con"><label for="" class="contact">CONTACT</label></a></li>
+        </ul>
+        </div>
+        <div class="content">
+            <h1  id="intro">INTRODUCTION</h1>
+            <P>I just wanted to introduce myself Im Rajavel .if you are searching for a platform to learn programing or reference for programing .you are in the right place.Here you can learn different programing languages </P>
+            
+            <h1  id="about">ABOUT THE PAGE</h1>
+            <p>Here You Can Get The Notes Fro All Programing Language. Click The Below Image To Make Use Of The Oline Compiler</p></a>
+            <a href="https://www.programiz.com/html/online-compiler/"><img src="https://png.pngtree.com/png-vector/20190330/ourmid/pngtree-html-file-document-icon-png-image_896931.jpg" alt="HTML ONLINE COMPILAR" class="i1"></a>
+            <a href="https://www.programiz.com/python-programming/online-compiler/"><img src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png" alt="" class="i2"></a>
+            <a href="https://www.programiz.com/java-programming/online-compiler/"><img src="https://dev.java/assets/images/java-logo-vert-blk.png" alt="" class="i3"></a>
+            <a href="https://www.programiz.com/cpp-programming/online-compiler/"><img src="https://miro.medium.com/max/1400/1*mDKusLBkGKBWW4aycK4PCA.png" alt="" class="i4"></a>
+            <a href="https://dartpad.dev/?"><img src="https://res.infoq.com/presentations/Dart/en/slides/1.jpg" alt="" class="i5"></a>
+
+            <fieldset id="con">
+                <legend>Contact</legend>
+                <label for="name">FULL NAME:</label>
+                <input type="text" required placeholder="name"><br><br>
+                <label for="gender">GENDER:</label><br><br>
+                <label for="male">MALE</label>
+                <input type="radio" name="gender" value="gender"> 
+                <label for="female">FEMALE</label>
+                <input type="radio" name="gender" value="gender"><br><br>
+                <label for="text">YOUR DOUTES</label>
+                <input type="text" ><br><br>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </fieldset>
+            
+        </div>
+        <div class="contact">
+            <div class="info">
+             <label for="copy" class="cpy">COPYRIGHT</label>
+             <label for="num" class="no">1234567890</label>
+            </div>
+        
+        </label></div>
+        <hr>
+</body>
+</html>
